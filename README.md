@@ -2,10 +2,20 @@
 A repository to test out an issue noticed while piping nodejs streams
 
 # How to run
+Install dependencies using
+
+> npm install
+
+Generate the testData using
+
+> node generate-testData
+
 Setup a http server using
+
 > npx http-server testData/
 
-Then run this script using
+Run the script using
+
 > node streamers.js
 
 # Good reads
