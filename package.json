@@ -1,0 +1,19 @@
+{
+  "name": "pipe-issue",
+  "version": "0.0.1",
+  "description": "Repo to test out a pipe issue I noticed on nodejs streams",
+  "main": "streamer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node streamer.js"
+  },
+  "author": "sregger",
+  "dependencies": {
+    "archiver": "^3.0.0",
+    "b64u": "^2.0.0",
+    "pretty-bytes": "^5.1.0",
+    "pretty-ms": "^4.0.0",
+    "progress-stream": "^2.0.0",
+    "request": "^2.88.0"
+  }
+}
