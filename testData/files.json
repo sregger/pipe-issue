@@ -1,0 +1,25 @@
+{
+  "files": [
+    {
+      "name": "file_1.txt",
+      "size": 100
+    },
+    {
+      "name": "file_2.txt",
+      "size": 1000
+    },
+    {
+      "name": "file_3.txt",
+      "size": 10000
+    },
+    {
+      "name": "file_4.txt",
+      "size": 100000
+    }
+    ,
+    {
+      "name": "file_5.txt",
+      "size": 1000000
+    }
+  ]
+}

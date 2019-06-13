@@ -13,6 +13,7 @@ Then run this script using
  * https://blog.hustle.com/streams-and-pipes-and-errors-oh-my-62bc07b48ff1
  * https://www.bennadel.com/blog/2679-how-error-events-affect-piped-streams-in-node-js.htm
  * https://github.com/nodejs/node/issues/3045
+ * https://gist.github.com/rjz/15baffeab434b8125ca4d783f4116d81
 
 # Raised
 
