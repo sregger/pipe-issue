@@ -85,7 +85,7 @@ Once the testData is generated open testData/file_1.txt and modify the file. Thi
     --------------------------------------------------------------------------------
     archive close called
 
-In the output above you can see Error
+In the output above you can see
 
 > Error: Unsupported state or unable to authenticate data
 
