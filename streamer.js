@@ -41,7 +41,7 @@ async function download(files) {
 
     for (const file of files) {
       const decryptInfo = require(`./testData/${file.name}.json`);
-      const key = fs.readFileSync((decryptInfo.key.data);
+      const key = Buffer.from(decryptInfo.key.data);
       const iv = Buffer.from(decryptInfo.iv.data);
       const tag = Buffer.from(decryptInfo.tag.data);
       const decipher = ciphers.createDecipher(key, iv, tag);
