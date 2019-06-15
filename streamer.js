@@ -71,7 +71,7 @@ async function download(files) {
             console.timeEnd(file.name);
             resolve();
           });
-          // .pipe(progressStream({drain: false}, (progress) => {}));
+          // .pipe(progressStream({drain: false}, (progress) => {}))
           // .pipe(passThrough.PassThrough())
           // .on('error', (error) => {
           //   console.error(`Error progressing ${file} due to error ${error}`);
@@ -105,7 +105,7 @@ async function run() {
     console.log('********************************************************************************')
     await download(files.slice(0, 2))
     console.log('********************************************************************************')
-    await download(files.slice(3, 4))
+    await download(files.slice(2, 4))
     console.log('********************************************************************************')
     await download(files.slice(4, 5))
     console.log('********************************************************************************')
