@@ -11,7 +11,7 @@
   "dependencies": {
     "archiver": "^3.0.0",
     "b64u": "^2.0.0",
-    "http-server": "^0.11.1",
+    "http-server": "^0.11.2",
     "pretty-bytes": "^5.1.0",
     "pretty-ms": "^4.0.0",
     "progress-stream": "^2.0.0",
